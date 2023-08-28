@@ -144,7 +144,7 @@ main {
 }
 
 /* Cakes for Every Occasion and for Everyone section */
-#cakes-for-all {
+.cakes-for-all {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -174,40 +174,34 @@ main {
     top: 150px;
 }
 
-#occasion {
+.cake-p-styling {
     padding: 10px;
     line-height: 25px;
-    text-align: left;
+    text-align: center;
 }
 
-#occasion>h3,
-#everyone>h3 {
+.cake-p-styling>h3 {
     text-transform: uppercase;
     font-size: 170%;
     color: #cdac5d;
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-#everyone {
-    line-height: 25px;
-    text-align: left;
-    padding: 385px 10px 10px 10px;
-}
-
-.greycake {
-    width: 90vw;
-    max-width: 170px;
-    z-index: 1;
-    align-items: flex-end;
+    padding: 50px 0 10px 0;
 }
 
 .groovybiscuits {
-    width: 90vw;
-    max-width: 190px;
-    right: 75px;
-    top: 220px;
-    position: absolute;
-    z-index: 2;
-    border: 2px solid #ffffff
+    background: url("../images/groovybiscuits.webp") no-repeat center/cover;
+        height: 40vw;
+        width: 50vw;
+        border: 2px solid #ffffff;
+        position: relative;
+        left: 20px;
+        top: 150px;
+        z-index: 1;
+}
+
+.greycake {
+    background: url("../images/blackgreywhitecake.webp") no-repeat center/cover;
+    height: 70vw;
+    width: 50vw;
+    position: relative;
+    right: 20px;
 }
