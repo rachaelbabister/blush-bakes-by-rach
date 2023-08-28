@@ -288,3 +288,36 @@ main {
 #social-media i:hover {
     color: #cdac5d;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+    #menu {
+        display: flex;
+        font-size: 120%;
+    }
+
+    #menu>li {
+        padding-left: 2em;
+    }
+
+    /* Navbar */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Intro text */
+    .intro-text {
+        padding: 20px 120px;
+    }
+
+    
+     
