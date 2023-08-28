@@ -32,6 +32,11 @@ p {
     text-align: center;
 }
 
+/* Enable elements to be hidden but still found by search engines */
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -108,3 +113,19 @@ main {
     background-color: #cdac5d;
 }
 
+#hero-text {
+    background-color: rgba(253, 247, 242, .6);
+    font-size: 180%;
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+#hero-text>h2 {
+    text-align: left;
+    font-weight: lighter;
+}
