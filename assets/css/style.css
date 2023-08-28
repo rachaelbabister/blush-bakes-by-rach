@@ -200,13 +200,13 @@ main {
 
 .groovybiscuits {
     background: url("../images/groovybiscuits.webp") no-repeat center/cover;
-        height: 40vw;
-        width: 50vw;
-        border: 2px solid #ffffff;
-        position: relative;
-        left: 20px;
-        top: 150px;
-        z-index: 1;
+    height: 40vw;
+    width: 50vw;
+    border: 2px solid #ffffff;
+    position: relative;
+    left: 20px;
+    top: 150px;
+    z-index: 1;
 }
 
 .greycake {
