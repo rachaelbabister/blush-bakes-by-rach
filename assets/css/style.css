@@ -113,8 +113,8 @@ main {
     font-size: 180%;
     position: absolute;
     width: 80%;
-    bottom: 20px;
-    margin-left: 20px;
+    bottom: 10px;
+    margin-left: 10px;
 }
 
 #hero-text>h2 {
@@ -122,7 +122,7 @@ main {
     font-weight: lighter;
     position: absolute;
     bottom: 0;
-    padding: 20px;
+    padding: 10px;
     display: block;
     background-color: rgba(253, 247, 242, .6);
 }
@@ -137,7 +137,7 @@ main {
     display: block;
     width: 100%;
     background-color: #e7d1de;
-    padding: 20px;
+    padding: 10px;
     line-height: 30px;
     font-size: 105%;
     text-align: center;
@@ -145,39 +145,69 @@ main {
 
 /* Cakes for Every Occasion and for Everyone section */
 #cakes-for-all {
-    width: 80%;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.flex-item {
+    width: 50%;
+    margin: 20px 0;
 }
 
 .winniecake {
-    width: 175px;
+    background: url("../images/winniethepoohcake.webp") no-repeat center/cover;
+    height: 70vw;
+    width: 50vw;
     position: relative;
     left: 20px;
-    top: 20px;
-    z-index: 1;
 }
 
 .brownie {
-    width: 190px;
-    left: 75px;
-    top: 220px;
+    background: url("../images/brownies.webp") no-repeat center/cover;
+    height: 40vw;
+    width: 50vw;
+    border: 2px solid #ffffff;
     position: relative;
-    z-index: 2;
-    border: 1px solid #ffffff
+    right: 20px;
+    top: 150px;
 }
 
 #occasion {
-    padding: 380px 20px 20px 20px;
+    padding: 10px;
     line-height: 25px;
     text-align: left;
 }
 
-#occasion>h3 {
+#occasion>h3,
+#everyone>h3 {
     text-transform: uppercase;
     font-size: 170%;
-    color: #cdac5d
+    color: #cdac5d;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
-#everyone {}
+#everyone {
+    line-height: 25px;
+    text-align: left;
+    padding: 385px 10px 10px 10px;
+}
 
-/* Testing */
+.greycake {
+    width: 90vw;
+    max-width: 170px;
+    z-index: 1;
+    align-items: flex-end;
+}
+
+.groovybiscuits {
+    width: 90vw;
+    max-width: 190px;
+    right: 75px;
+    top: 220px;
+    position: absolute;
+    z-index: 2;
+    border: 2px solid #ffffff
+}
