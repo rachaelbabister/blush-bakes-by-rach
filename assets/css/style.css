@@ -28,10 +28,6 @@ h6 {
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
-
 /* Enable elements to be hidden but still found by search engines */
 .hidden-heading {
     display: none;
@@ -132,17 +128,18 @@ main {
 
 /* Introduction styles */
 #intro {
-    height: 250px;
-    width: 100%;
-    background-color: #e7d1de;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-#intro-text {
-    position: absolute;
+.intro-text {
+    display: block;
+    width: 100%;
+    background-color: #e7d1de;
     padding: 20px;
     line-height: 30px;
     font-size: 105%;
+    text-align: center;
 }
 
 /* Cakes for Every Occasion and for Everyone section */
@@ -170,14 +167,14 @@ main {
 
 #occasion {
     padding: 380px 20px 20px 20px;
-    line-height: 30px;
+    line-height: 25px;
+    text-align: left;
 }
 
 #occasion>h3 {
     text-transform: uppercase;
-    font-size: 150%;
+    font-size: 170%;
     color: #cdac5d
-
 }
 
 #everyone {}
