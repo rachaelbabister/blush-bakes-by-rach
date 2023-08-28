@@ -140,8 +140,44 @@ main {
 
 #intro-text {
     position: absolute;
-    width: 100%;
     padding: 20px;
     line-height: 30px;
     font-size: 105%;
 }
+
+/* Cakes for Every Occasion and for Everyone section */
+#cakes-for-all {
+    width: 80%;
+    position: absolute;
+}
+
+.winniecake {
+    width: 175px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.brownie {
+    width: 190px;
+    left: 75px;
+    top: 220px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid #ffffff
+}
+
+#occasion {
+    padding: 380px 20px 20px 20px;
+    line-height: 30px;
+}
+
+#occasion>h3 {
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #cdac5d
+
+}
+
+#everyone {}
