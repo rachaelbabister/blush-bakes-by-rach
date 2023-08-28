@@ -129,3 +129,19 @@ main {
     text-align: left;
     font-weight: lighter;
 }
+
+/* Introduction styles */
+#intro {
+    height: 250px;
+    width: 100%;
+    background-color: #e7d1de;
+    position: relative;
+}
+
+#intro-text {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 105%;
+}
