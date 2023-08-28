@@ -121,14 +121,14 @@ main {
     margin-left: 10px;
 }
 
-#hero-text>h2 {
+#hero-text h2 {
     text-align: left;
     font-weight: lighter;
     position: absolute;
     bottom: 0;
     padding: 10px;
     display: block;
-    background-color: rgba(253, 247, 242, .6);
+    background-color: rgba(253, 247, 242, .8);
 }
 
 /* Introduction styles */
@@ -184,7 +184,7 @@ main {
     text-align: center;
 }
 
-.cake-p-styling>h3 {
+.cake-p-styling h3 {
     text-transform: uppercase;
     font-size: 170%;
     color: #cdac5d;
@@ -194,6 +194,7 @@ main {
 .list-align-center {
     margin-top: 10px;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .list-align-center ul {
@@ -314,10 +315,26 @@ main {
         display: none;
     }
 
+    /* Hero styles */
+    #hero-text {
+        font-size: 200%;
+    }
+
     /* Intro text */
     .intro-text {
         padding: 20px 120px;
+        font-size: 125%;
     }
 
-    
-     
+    /* Cakes for all section */
+    .cake-p-styling h3 {
+        font-size: 250%;
+    }
+
+    .cake-p-styling p {
+        padding: 20px 100px;
+    }
+
+    .list-align-center {
+        margin-top: 0;
+    }
