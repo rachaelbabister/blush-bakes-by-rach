@@ -258,6 +258,36 @@ main {
     border: 1px solid #ffffff;
 }
 
+/* Gallery Page */
+
+/* Anchor links */
+#cake-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: 90%;
+}
+
+#menu a:hover {
+    color: #cdac5d;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+#photos img {
+    width: 80%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer Section */
 #footer {
     background-color: #e7d1de;
