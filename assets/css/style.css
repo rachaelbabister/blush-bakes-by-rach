@@ -340,6 +340,7 @@ main {
 
 #gallery {
     padding: 0 5px;
+    margin-bottom: 20px;
 }
 
 #gallery h3 {
@@ -437,122 +438,179 @@ main {
         padding-bottom: 10px;
     }
 
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* Hero Styles */
-    #hero-text {
-        width: 550px;
-        height: 150px;
-        right: 40px;
-        bottom: 180px;
+    /* Gallery page */
+    #gallery h3 {
+        font-size: 200%;
     }
 
-    #hero-text h2 {
-        text-align: right;
-        font-size: 180%;
-        padding: 30px;
+    #cake-menu {
+        font-size: 100%
     }
 
-    /* Cakes for Every Occasion and for Everyone section */
-    #occasion {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        margin-bottom: 50px;
-        padding-inline: 40px;
+    .gallery-intro-text {
+        width: 80%;
     }
 
-    #occasion>div {
-        flex: 1 1;
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+
+        /* Hero Styles */
+        #hero-text {
+            width: 550px;
+            height: 150px;
+            right: 40px;
+            bottom: 180px;
+        }
+
+        #hero-text h2 {
+            text-align: right;
+            font-size: 180%;
+            padding: 30px;
+        }
+
+        /* Cakes for Every Occasion and for Everyone section */
+        #occasion {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-bottom: 50px;
+            padding-inline: 40px;
+        }
+
+        #occasion>div {
+            flex: 1 1;
+        }
+
+        #occasion>#cake-image-bg {
+            order: 0;
+        }
+
+        #occasion>div {
+            align-self: center;
+            align-items: flex-end;
+        }
+
+        #occasion p,
+        #occasion h3 {
+            text-align: right;
+        }
+
+        #everyone {
+            display: flex;
+            flex-direction: row;
+            padding-inline: 40px;
+        }
+
+        #everyone>div {
+            flex: 1 1;
+        }
+
+        #everyone>#cake-image-bg {
+            order: 1;
+        }
+
+        #everyone>div {
+            align-self: center;
+            align-items: flex-start;
+        }
+
+        #everyone p,
+        #everyone h3 {
+            text-align: left;
+        }
+
+        #cake-image-bg {
+            justify-content: space-around;
+            gap: 10px;
+        }
+
+        .list-align-center {
+            text-align: left;
+            margin-left: 30px;
+        }
+
+        /* Gallery page */
+        #gallery h3 {
+            font-size: 250%;
+            padding: 30px 0 20px 0;
+        }
+
+        .gallery-intro-text {
+            width: 60%;
+        }
+
+        .photos {
+            column-count: 3;
+        }
+
+        .photos img {
+            display: block;
+        }
+
+        #gallery {
+            margin-bottom: 40px;
+        }
     }
 
-    #occasion>#cake-image-bg {
-        order: 0;
+    /* Large devices (laptops and desktops, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+
+        /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
+
+        /* Header */
+        header {
+            padding-inline: 100px;
+        }
+
+        /* Intro text */
+        .intro-text {
+            width: 60%;
+        }
+
+        /* Cake for all */
+        #occasion,
+        #everyone {
+            padding-inline: 100px;
+        }
     }
 
-    #occasion>div {
-        align-self: center;
-        align-items: flex-end;
+    /* Large devices (laptops and desktops, 1600px and up) */
+    @media screen and (min-width: 1600px) {
+
+        /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
+
+        /* Header */
+        header {
+            padding-inline: 250px;
+        }
+
+        /* Cake for all */
+        #occasion,
+        #everyone {
+            padding-inline: 250px;
+        }
+
+        /* Gallery page */
+        #gallery h3 {
+            font-size: 250%;
+            padding: 30px 0 20px 0;
+        }
+
+        .gallery-intro-text {
+            width: 50%;
+            font-size: 120%;
+            line-height: 27px;
+        }
+
+        .photos {
+            column-count: 4;
+        }
+
+        .photos img {
+            display: block;
+        }
+
+        #gallery {
+            margin-bottom: 40px;
+        }
     }
-
-    #occasion p,
-    #occasion h3 {
-        text-align: right;
-    }
-
-    #everyone {
-        display: flex;
-        flex-direction: row;
-        padding-inline: 40px;
-    }
-
-    #everyone>div {
-        flex: 1 1;
-    }
-
-    #everyone>#cake-image-bg {
-        order: 1;
-    }
-
-    #everyone>div {
-        align-self: center;
-        align-items: flex-start;
-    }
-
-    #everyone p,
-    #everyone h3 {
-        text-align: left;
-    }
-
-    #cake-image-bg {
-        justify-content: space-around;
-        gap: 10px;
-    }
-
-    .list-align-center {
-        text-align: left;
-        margin-left: 30px;
-    }
-}
-
-/* Large devices (laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-
-    /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
-
-    /* Header */
-    header {
-        padding-inline: 100px;
-    }
-
-    /* Intro text */
-    .intro-text {
-        width: 60%;
-    }
-
-    /* Cake for all */
-    #occasion,
-    #everyone {
-        padding-inline: 100px;
-    }
-}
-
-/* Large devices (laptops and desktops, 1600px and up) */
-@media screen and (min-width: 1600px) {
-
-    /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
-
-    /* Header */
-    header {
-        padding-inline: 250px;
-    }
-
-    /* Cake for all */
-    #occasion,
-    #everyone {
-        padding-inline: 250px;
-    }
-}
