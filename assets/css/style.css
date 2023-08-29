@@ -148,39 +148,71 @@ main {
 }
 
 /* Cakes for Every Occasion and for Everyone section */
-.cakes-for-all {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%
+#cake-flow {
+    width: 90%;
+    margin: 20px 10px;
 }
 
-.winniecake {
-    background: url("../images/winniethepoohcake.webp") no-repeat center/cover;
-    width: 40vw;
-    height: 50vh;
-    position: relative;
-}
-
-.brownie {
-    background: url("../images/brownies.webp") no-repeat center/cover;
-    width: 40vw;
-    height: 30vh;
-    position: relative;
-}
-
-.cake-p-styling {
-    padding: 10px;
+#cakesforall p {
+    padding: 5px;
     line-height: 25px;
     text-align: center;
 }
 
-.cake-p-styling h3 {
+#occasion>div,
+#everyone>div {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#occasion h3,
+#everyone h3 {
     text-transform: uppercase;
     font-size: 170%;
     color: #cdac5d;
-    padding: 50px 0 10px 0;
+}
+
+#winnie-bg {
+    background: url(../images/winniethepoohcake.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 100vw;
+    margin-bottom: 5px;
+    max-width: 260px;
+    max-height: 360px;
+}
+
+#brownies-bg {
+    background: url(../images/brownies.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 70vw;
+    margin-bottom: 5px;
+    max-width: 260px;
+    max-height: 195px;
+}
+
+#greycake-bg {
+    background: url(../images/blackgreywhitecake.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 110vw;
+    margin-bottom: 5px;
+    max-width: 260px;
+    max-height: 360px;
+}
+
+#groovy-bg {
+    background: url(../images/groovybiscuits.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 70vw;
+    margin-bottom: 5px;
+    max-width: 260px;
+    max-height: 195px;
+}
+
+#cake-image-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .list-align-center {
@@ -197,25 +229,6 @@ main {
 
 .fa-cookie-bite {
     color: #cdac5d;
-}
-
-.groovybiscuits {
-    background: url("../images/groovybiscuits.webp") no-repeat center/cover;
-    height: 40vh;
-    width: 50vw;
-    border: 2px solid #ffffff;
-    position: relative;
-    left: 20px;
-    top: 150px;
-    z-index: 1;
-}
-
-.greycake {
-    background: url("../images/blackgreywhitecake.webp") no-repeat center/cover;
-    height: 70vh;
-    width: 50vw;
-    position: relative;
-    right: 20px;
 }
 
 /* Background Image with Enquire Button */
