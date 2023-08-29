@@ -374,6 +374,33 @@ main {
     color: #cdac5d;
 }
 
+/* Contact page */
+#contact-image {
+    height: 250px;
+    width: 100%;
+    background: url("../images/number90cake.webp") no-repeat left bottom/cover;
+    display: flex;
+    /* Background colour if image doesn't load */
+    background-color: #cdac5d;
+}
+
+#contact-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-text h2 {
+    background-color: rgba(253, 247, 242, .8);
+    color: #4a474e;
+    font-size: 270%;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
