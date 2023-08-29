@@ -301,7 +301,8 @@ main {
     justify-content: center;
     list-style-type: none;
     font-size: 90%;
-    margin: 30px 0;
+    padding: 25px 0;
+    border-bottom: 1px solid #4a474e;
 }
 
 #cake-menu li {
@@ -324,10 +325,29 @@ main {
 }
 
 /* Images */
-#photos img {
-    width: 50%;
+.photos img {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    line-height: 1em;
 }
 
+.photos {
+    column-count: 2;
+    column-gap: 0;
+    line-height: 0
+}
+
+#gallery {
+    padding: 0 5px;
+}
+
+#gallery h3 {
+    font-size: 180%;
+    letter-spacing: 2px;
+    color: #cdac5d;
+    padding: 25px 0 10px 0;
+}
 
 /* Footer Section */
 #footer {
