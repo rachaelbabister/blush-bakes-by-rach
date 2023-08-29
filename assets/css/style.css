@@ -15,6 +15,25 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Back to top styling, from https://www.freecodecamp.org/news/css-only-back-to-top-button/ */
+    display: grid;
+    grid-template-columns: auto 0px;
+}
+
+/* Back to top styling */
+.top {
+    position: sticky;
+    bottom: 20px;
+    --offset: 10px;
+    margin-top: calc(100vh + var(--offset));
+    margin-right: 20px;
+    place-self: end;
+}
+
+/* Back to top button */
+#return-to-top {
+    font-size: 3rem;
+    color: #4a474e;
 }
 
 h1,
