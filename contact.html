@@ -56,46 +56,48 @@
         <section id="getintouch">
             <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
                 <label for="first-name">First Name *</label>
-                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <input type="text" id="first-name" name="first-name" class="input-area" required>
                 <br>
                 <label for="last-name">Last Name *</label>
-                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <input type="text" id="last-name" name="last-name" class="input-area" required>
                 <br>
                 <label for="email-address">Email Address *</label>
-                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <input type="email" id="email-address" name="email-address" class="input-area" required>
                 <br>
                 <label for="phone-number">Phone Number</label>
-                <input type="tel" id="phone-number" name="phone-number" class="text-input">
+                <input type="tel" id="phone-number" name="phone-number" class="input-area">
                 <br>
                 <label for="date-required">Date Required *</label>
-                <input type="date" id="date-required" name="date-required" class="text-input" required>
+                <input type="date" id="date-required" name="date-required" class="input-area" required>
                 <br>
                 <label for="number-of-servings">Number of Servings *</label>
-                <input type="text" id="number-of-servings" name="number-of-servings" class="text-input" required>
+                <input type="text" id="number-of-servings" name="number-of-servings" class="input-area" required>
                 <br>
-                 <label for="design-ideas">Design ideas and any other information</label>
-                 <input type="text" id="design-ideas" name="design-ideas" class="text-input" rows="6" cols="50">>
-                 <br>
+                <label for="design-ideas">Design ideas and any other information:</label>
+                <textarea id="design-ideas" name="design-ideas" class="input-area design-area"></textarea>
+                <br>
+                <p>How did you hear about Blush Bakes by Rach?</p>
                 <div class="checkbox">
-                    <p>How did you hear about Blush Bakes by Rach?</p>
                     <div>
-                        <label for="instagram">Instagram</label>
                         <input type="checkbox" id="instagram" name="where-from" value="Instagram" required>
+                        <label for="instagram">Instagram</label>
                     </div>
                     <div>
-                        <label for="facebook">Facebook</label>
                         <input type="checkbox" id="facebook" name="where-from" value="Facebook" required>
+                        <label for="facebook">Facebook</label>
                     </div>
                     <div>
-                        <label for="web-search">Web Search</label>
                         <input type="checkbox" id="web-search" name="where-from" value="Web Search" required>
+                        <label for="web-search">Web Search</label>
                     </div>
                     <div>
-                        <label for="recommendation">Recommendation</label>
                         <input type="checkbox" id="recommendation" name="where-from" value="Recommendation" required>
+                        <label for="recommendation">Recommendation</label>
                     </div>
                 </div>
-                <input type="submit" class="send-button" value="SEND">
+                <div class="button-right">
+                    <input type="submit" class="send-button" value="SEND">
+                </div>
             </form>
 
         </section>

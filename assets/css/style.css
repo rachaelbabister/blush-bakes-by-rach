@@ -267,9 +267,9 @@ main {
 }
 
 .contact-button:hover {
-    background-color: #4a474e;
-    color: #cdac5d;
-    border: 1px solid #cdac5d;
+    background-color: #f7e6de;
+    color: #4a474e;
+    border: 1px solid #4a474e;
 }
 
 /* Gallery Page */
@@ -350,31 +350,8 @@ main {
     padding: 25px 0 10px 0;
 }
 
-/* Footer Section */
-#footer {
-    background-color: #f7e6de;
-}
-
-#social-media {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-media i {
-    font-size: 160%;
-    padding: 5%;
-    color: #4a474e;
-    transition-duration: 0.5s;
-}
-
-#social-media i:hover {
-    color: #cdac5d;
-}
-
 /* Contact page */
+/* Contact header image */
 #contact-image {
     height: 250px;
     width: 100%;
@@ -400,6 +377,93 @@ main {
     text-align: center;
     padding: 20px;
 }
+
+/* Contact form */
+#getintouch {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+}
+
+#contact-form {
+    color: #4a474e;
+    background-color: rgba(205, 172, 93, .5);
+    padding: 15px;
+}
+
+.input-area {
+    background-color: rgba(205, 172, 93, .5);
+    color: #4a474e;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.design-area {
+    height: 75px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox {
+    padding: 10px;
+    line-height: 25px;
+}
+
+.button-right {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.send-button {
+    font-family: 'Reenie Beanie', cursive;
+    letter-spacing: 2px;
+    background-color: #cdac5d;
+    color: #4a474e;
+    border: 1px solid #4a474e;
+    font-size: 130%;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 2%;
+    transition-duration: 0.5s;
+}
+
+.send-button:hover {
+    background-color: #f7e6de;
+    color: #4a474e;
+    border: 1px solid #4a474e;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #f7e6de;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #4a474e;
+    transition-duration: 0.5s;
+}
+
+#social-media i:hover {
+    color: #cdac5d;
+}
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
