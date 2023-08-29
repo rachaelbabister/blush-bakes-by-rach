@@ -156,12 +156,13 @@ main {
     display: flex;
     justify-content: center;
     background-color: #f7e6de;
+    width: 100%;
 }
 
 .intro-text {
     display: block;
-    width: 100%;
-    padding: 25px 10px;
+    width: 80%;
+    padding: 25px 5px;
     line-height: 30px;
     font-size: 105%;
     text-align: center;
@@ -520,7 +521,6 @@ textarea {
 
     /* Intro text */
     .intro-text {
-        width: 80%;
         font-size: 125%;
     }
 
@@ -673,6 +673,10 @@ textarea {
             align-items: center;
             padding: 30px 30px;
             margin-bottom: 30px;
+        }
+
+        #contact-text h2 {
+            font-size: 450%;
         }
 
         #contact-form {
