@@ -380,11 +380,16 @@ main {
 
 /* Contact form */
 #getintouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px 15px;
     margin-bottom: 30px;
 }
 
 #contact-form {
+    flex: 1;
+    max-width: 600px;
     color: #4a474e;
     background-color: rgba(205, 172, 93, .5);
     padding: 15px;
@@ -640,6 +645,31 @@ textarea {
 
         #gallery {
             margin-bottom: 40px;
+        }
+
+        /* Contact page */
+        #getintouch {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 30px;
+            margin-bottom: 30px;
+        }
+
+        #contact-form {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .form-row {
+            display: flex;
+        }
+
+        .input-group {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 5px;
         }
     }
 
