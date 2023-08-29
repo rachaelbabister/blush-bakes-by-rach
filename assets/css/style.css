@@ -136,13 +136,13 @@ main {
 #intro {
     display: flex;
     justify-content: center;
+    background-color: #e7d1de;
 }
 
 .intro-text {
     display: block;
     width: 100%;
-    background-color: #e7d1de;
-    padding: 10px;
+    padding: 25px 10px;
     line-height: 30px;
     font-size: 105%;
     text-align: center;
@@ -151,7 +151,7 @@ main {
 /* Cakes for Every Occasion and for Everyone section */
 #cake-flow {
     width: 100%;
-    margin: 20px 10px;
+    padding: 20px;
 }
 
 #cakesforall p {
@@ -220,7 +220,7 @@ main {
 .list-align-center {
     margin-top: 10px;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .list-align-center ul {
@@ -357,7 +357,7 @@ main {
 
     /* Intro text */
     .intro-text {
-        padding: 20px 120px;
+        width: 80%;
         font-size: 125%;
     }
 
@@ -379,8 +379,9 @@ main {
         max-height: 240px;
     }
 
-    #cakesforall p {
-        padding: 5px 40px;
+    #occasion,
+    #everyone {
+        padding-inline: 70px;
     }
 
     #occasion h3,
@@ -389,85 +390,122 @@ main {
         padding-bottom: 10px;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
+}
 
-        /* Hero Text Box */
-#hero-text {
-       position: absolute;
-        width: 80%;
-        bottom: 274px;
-        right: 10px;
-        margin-right: 10px;
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Hero Styles */
+    #hero-text {
+        width: 550px;
+        height: 150px;
+        right: 40px;
+        bottom: 180px;
     }
 
     #hero-text h2 {
         text-align: right;
-        position: absolute;
+        font-size: 180%;
+        padding: 30px;
     }
 
-        /* Cakes for Every Occasion and for Everyone section */
-        #cakesforall {
-            width: 100%;
-        }
+    /* Cakes for Every Occasion and for Everyone section */
+    #occasion {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-bottom: 50px;
+        padding-inline: 40px;
+    }
 
-        #occasion {
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-            margin-bottom: 50px;
-        }
+    #occasion>div {
+        flex: 1 1;
+    }
 
-        #occasion>div {
-            flex: 1 1;
-        }
+    #occasion>#cake-image-bg {
+        order: 0;
+    }
 
-        #occasion>#cake-image-bg {
-            order: 0;
-        }
+    #occasion>div {
+        align-self: center;
+        align-items: flex-end;
+    }
 
-        #occasion>div {
-            align-self: center;
-            align-items: flex-end;
-        }
+    #occasion p,
+    #occasion h3 {
+        text-align: right;
+    }
 
-        #occasion p,
-        #occasion h3 {
-            text-align: right;
-        }
+    #everyone {
+        display: flex;
+        flex-direction: row;
+        padding-inline: 40px;
+    }
 
-        #occasion h3 {
-            padding-right: 40px;
-        }
+    #everyone>div {
+        flex: 1 1;
+    }
 
-        #everyone {
-            display: flex;
-            flex-direction: row;
-        }
+    #everyone>#cake-image-bg {
+        order: 1;
+    }
 
-        #everyone>div {
-            flex: 1 1;
-        }
+    #everyone>div {
+        align-self: center;
+        align-items: flex-start;
+    }
 
-        #everyone>#cake-image-bg {
-            order: 1;
-        }
+    #everyone p,
+    #everyone h3 {
+        text-align: left;
+    }
 
-        #everyone>div {
-            align-self: center;
-            align-items: flex-start;
-        }
+    #cake-image-bg {
+        justify-content: space-around;
+        gap: 10px;
+    }
 
-        #everyone p,
-        #everyone h3 {
-            text-align: left;
-        }
+    .list-align-center {
+        text-align: left;
+        margin-left: 30px;
+    }
+}
 
-        #everyone h3 {
-            padding-left: 40px;
-        }
+/* Large devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
 
-        #cake-image-bg {
-            justify-content: space-around;
-            gap: 10px;
-        }
+    /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
+
+    /* Header */
+    header {
+        padding-inline: 100px;
+    }
+
+    /* Intro text */
+    .intro-text {
+        width: 60%;
+    }
+
+    /* Cake for all */
+    #occasion,
+    #everyone {
+        padding-inline: 100px;
+    }
+}
+
+/* Large devices (laptops and desktops, 1600px and up) */
+@media screen and (min-width: 1600px) {
+
+    /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
+
+    /* Header */
+    header {
+        padding-inline: 250px;
+    }
+
+    /* Cake for all */
+    #occasion,
+    #everyone {
+        padding-inline: 250px;
+    }
+}
