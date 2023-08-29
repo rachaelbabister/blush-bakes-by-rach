@@ -150,7 +150,7 @@ main {
 
 /* Cakes for Every Occasion and for Everyone section */
 #cake-flow {
-    width: 90%;
+    width: 100%;
     margin: 20px 10px;
 }
 
@@ -330,7 +330,6 @@ main {
 @media screen and (min-width: 768px) {
 
     /* Header */
-
     #menu {
         display: flex;
         font-size: 120%;
@@ -370,14 +369,14 @@ main {
 
     #brownies-bg {
         align-self: flex-end;
-        max-width: 345px;
-        max-height: 259px;
+        max-width: 320;
+        max-height: 240px;
     }
 
     #groovy-bg {
         align-self: flex-end;
-        max-width: 345px;
-        max-height: 259px;
+        max-width: 320;
+        max-height: 240px;
     }
 
     #cakesforall p {
@@ -388,9 +387,87 @@ main {
     #everyone h3 {
         font-size: 200%;
         padding-bottom: 10px;
-        }
+    }
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
 
+        /* Hero Text Box */
+#hero-text {
+       position: absolute;
+        width: 80%;
+        bottom: 274px;
+        right: 10px;
+        margin-right: 10px;
+    }
+
+    #hero-text h2 {
+        text-align: right;
+        position: absolute;
+    }
+
         /* Cakes for Every Occasion and for Everyone section */
+        #cakesforall {
+            width: 100%;
+        }
+
+        #occasion {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+
+        #occasion>div {
+            flex: 1 1;
+        }
+
+        #occasion>#cake-image-bg {
+            order: 0;
+        }
+
+        #occasion>div {
+            align-self: center;
+            align-items: flex-end;
+        }
+
+        #occasion p,
+        #occasion h3 {
+            text-align: right;
+        }
+
+        #occasion h3 {
+            padding-right: 40px;
+        }
+
+        #everyone {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #everyone>div {
+            flex: 1 1;
+        }
+
+        #everyone>#cake-image-bg {
+            order: 1;
+        }
+
+        #everyone>div {
+            align-self: center;
+            align-items: flex-start;
+        }
+
+        #everyone p,
+        #everyone h3 {
+            text-align: left;
+        }
+
+        #everyone h3 {
+            padding-left: 40px;
+        }
+
+        #cake-image-bg {
+            justify-content: space-around;
+            gap: 10px;
+        }
