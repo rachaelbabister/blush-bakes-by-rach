@@ -718,8 +718,8 @@ input[type=checkbox] {
         }
     }
 
-    /* Large devices (laptops and desktops, 1600px and up) */
-    @media screen and (min-width: 1600px) {
+    /* Large devices (laptops and desktops, 1500px and up) */
+    @media screen and (min-width: 1500px) {
 
         /* Styles changed to create more space around the outside of the pages when viewed on a larger screen */
 
@@ -742,10 +742,6 @@ input[type=checkbox] {
 
         .photos {
             column-count: 4;
-        }
-
-        .photos img {
-            display: block;
         }
 
         #gallery {
