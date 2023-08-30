@@ -34,6 +34,10 @@ GITHUB PAGES
     - [Wireframes](#wireframes)
   - [Features](#features)
     - [General features on each page](#general-features-on-each-page)
+      - [Home Page](#home-page)
+      - [Gallery](#gallery)
+      - [Contact](#contact)
+      - [Thank You](#thank-you)
     - [Future Implementations](#future-implementations)
     - [Accessibility](#accessibility)
   - [Technologies Used](#technologies-used)
@@ -133,27 +137,50 @@ The website contains 4 pages - home page, gallery, contact and a thank you page.
 - A favicon of the logo appears in the browser tab.
 - In the bottom right corner, as you start to scroll down, an arrow appears which enables the user to get back to the top of the page.
 
-![Blush Bakes by Rach shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/blushbakesbyrach-website.jpg)
+![All 4 paged of the website showing they are responsive](assets/images/readme-images/responsive-pages.png)
 
+![All 4 paged of the website showing they are responsive](assets/images/readme-images/headerandfooter.png)
 
+#### Home Page
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+The home page features a bright hero image of some cupcakes and a treat box directly underneath the navigational header. There is some welcome text underneath, which introduces the baker and where they're based.
+
+The next section is broken down into images and text, to showcase some of the cakes and treat boxes, and gives the user ideas as to what they can order and for who.
+
+Just above the footer there is another image banner with a call to action to take you to the contact page.
+
+#### Gallery
+
+In this top section below the menu header, it starts by asking if the user needs inspiration and to take a look at the gallery. There are 3 anchor links (cakes, cupcakes and treat boxes) which when clicked take you to the appropriate part of the gallery.
+
+The same call to action banner is also at the bottom above the footer.
+
+#### Contact
+
+To bring some colour and interest to this page there is a colourful cake banner image below the menu section. It invites users to get in touch using the contact form. Some elements are required before the form can be submitted, and users do get alerted when they haven't filled in these elements.
+
+#### Thank You
+
+A simple page with the same styling as the Contact page. The form elements have been removed and replaced with a 'thank you for submitting' message.
 
 ### Future Implementations
 
+- A new page with standard pricing and examples of cakes and their pricing.
+- An information page giving users cake care and cutting guides.
+- A suppliers page - recommendations of where to buy supplies.
+- A 'recipe' page which details flavours available for sponge and fillings, and what options of treat boxes are available.
 What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have tried to ensure the site has been made as accessible as possible by:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+- Using semantic HTML.
+- Using alt attributes on images where available.
+- Adding aria-labels for screen labels.
+- Using colour contrasts between the text and background.
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+---
 
 ## Technologies Used
 
@@ -161,15 +188,24 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
+- [Balsamiq](https://balsamiq.com/) - to create Wireframes.
+- [Codeanywhere](https://app.codeanywhere.com/) - cross platform cloud IDE to deploy workspace environment to Github.
+- [Github](https://github.com/) - to store and dislay all files and assets for the website.
+- [Google Fonts](https://fonts.google.com/) - to import the fonts used on the website.
+- [Font Awesome](https://fontawesome.com/icons) - to use icons on the website.
+- [Google Dev Tools](https://developer.chrome.com/docs/) - to troubleshoot, test and solve issues with any styling.
+- [W3C Markup Validator](https://validator.w3.org/) - to check the source code of my html files for any bugs.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to check the source code of my css file for any bugs.
+- Photoshop 2023 - to optimise images for the website.
+- [Am I Responsive?](https://ui.dev/amiresponsive?) - to showcase the website on different devices.
+
 Add any frameworks, libraries or programs used while creating your project.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+---
 
 ## Deployment & Local Development
 
