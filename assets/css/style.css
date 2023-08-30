@@ -168,6 +168,17 @@ main {
     text-align: center;
 }
 
+.intro-text a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.intro-text h3 {
+    font-size: 200%;
+    padding-bottom: 20px;
+}
+
 /* Cakes for Every Occasion and for Everyone section */
 #cake-flow {
     width: 100%;
@@ -293,28 +304,6 @@ main {
 }
 
 /* Gallery Page */
-/* Intro */
-.gallery-intro-text {
-    display: block;
-    width: 100%;
-    padding: 25px 10px;
-    line-height: 22px;
-    text-align: center;
-}
-
-.gallery-intro-text a {
-    color: inherit;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.gallery-intro-text h3 {
-    font-size: 190%;
-    color: #4a474e;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
-}
-
 /* Anchor links */
 #cake-menu {
     display: flex;
@@ -368,6 +357,7 @@ main {
     letter-spacing: 2px;
     color: #cdac5d;
     padding: 25px 0 10px 0;
+    text-transform: uppercase;
 }
 
 /* Contact page */
@@ -413,6 +403,17 @@ main {
     color: #4a474e;
     background-color: rgba(205, 172, 93, .5);
     padding: 15px;
+}
+
+#contact-form p {
+    font-size: 120%;
+    text-align: center;
+}
+
+#contact-form a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .input-area {
@@ -521,7 +522,7 @@ textarea {
 
     /* Intro text */
     .intro-text {
-        font-size: 125%;
+        font-size: 135%;
     }
 
     /* Cakes for all section */
@@ -560,10 +561,6 @@ textarea {
 
     #cake-menu {
         font-size: 100%
-    }
-
-    .gallery-intro-text {
-        width: 80%;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
@@ -650,10 +647,6 @@ textarea {
             padding: 30px 0 20px 0;
         }
 
-        .gallery-intro-text {
-            width: 60%;
-        }
-
         .photos {
             column-count: 3;
         }
@@ -738,12 +731,6 @@ textarea {
         #gallery h3 {
             font-size: 250%;
             padding: 30px 0 20px 0;
-        }
-
-        .gallery-intro-text {
-            width: 50%;
-            font-size: 120%;
-            line-height: 27px;
         }
 
         .photos {
