@@ -43,7 +43,6 @@ GITHUB PAGES
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-  - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
       - [How to Fork](#how-to-fork)
@@ -207,25 +206,39 @@ Add any frameworks, libraries or programs used while creating your project.
 
 ---
 
-## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+I used Github Pages to deploy the live website. To deploy a website on Github, follow these steps:
+
+1. Log in to Github - or set up a new account.
+2. Find the repository for [Blush Bakes by Rach](https://github.com/rachaelbabister/blush-bakes-by-rach).
+3. Click on 'Settings' along the top.
+4. Click on 'Pages' in the left hand side navigation bar.
+5. In the 'Source' section, ensure 'Deploy from a branch' is selected. Choose 'main' and 'Root' from the drop down menus and click Save.
+6. Your live site is now deployed and can be viewed using the link provided.
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork a repository on Github, follow these steps:
+
+1. Log in to Github - or step up a new account.
+2. Click on the repository for [Blush Bakes by Rach](https://github.com/rachaelbabister/blush-bakes-by-rach).
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone a repository on Github, follow these steps:
+
+1. Log in to Github - or step up a new account.
+2. Find the repository for [Blush Bakes by Rach](https://github.com/rachaelbabister/blush-bakes-by-rach).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
+
+- - -
+
 
 ## Testing
 
