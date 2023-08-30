@@ -406,11 +406,6 @@ main {
     padding: 15px;
 }
 
-#contact-form p {
-    font-size: 120%;
-    text-align: center;
-}
-
 #contact-form a {
     color: inherit;
     text-decoration: none;
@@ -438,7 +433,14 @@ textarea {
 
 .checkbox {
     padding: 10px;
-    line-height: 25px;
+    line-height: 30px;
+}
+
+input[type=checkbox] {
+    margin: 10px 10px 0;
+    line-height: normal;
+    width: 18px;
+    height: 18px;
 }
 
 .button-right {
@@ -449,13 +451,13 @@ textarea {
 .send-button {
     font-family: 'Reenie Beanie', cursive;
     letter-spacing: 2px;
-    background-color: #9e7105;
-    color: #4a474e;
-    border: 1px solid #4a474e;
+    background-color: #4a474e;
+    color: #f7e6de;
+    border: 1px solid #f7e6de;
     font-size: 130%;
     text-align: center;
-    width: 80px;
-    height: 30px;
+    width: 90px;
+    height: 40px;
     border-radius: 2%;
     transition-duration: 0.5s;
 }
@@ -464,6 +466,12 @@ textarea {
     background-color: #f7e6de;
     color: #4a474e;
     border: 1px solid #4a474e;
+}
+
+/* Thank you page */
+.thankyou {
+    font-size: 120%;
+    text-align: center;
 }
 
 /* Footer Section */
@@ -489,8 +497,6 @@ textarea {
 #social-media i:hover {
     color: #9e7105;
 }
-
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
