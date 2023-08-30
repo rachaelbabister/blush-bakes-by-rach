@@ -540,13 +540,13 @@ input[type=checkbox] {
 
     #brownies-bg {
         align-self: flex-end;
-        max-width: 320;
+        max-width: 320px;
         max-height: 240px;
     }
 
     #groovy-bg {
         align-self: flex-end;
-        max-width: 320;
+        max-width: 320px;
         max-height: 240px;
     }
 
