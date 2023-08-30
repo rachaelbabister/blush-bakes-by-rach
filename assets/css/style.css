@@ -569,6 +569,7 @@ input[type=checkbox] {
     #cake-menu {
         font-size: 100%
     }
+}
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
