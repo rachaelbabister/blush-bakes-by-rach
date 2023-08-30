@@ -1,14 +1,19 @@
 # BLUSH BAKES BY RACH
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+Welcome to Blush Bakes by Rach - a website for a real business, run by myself. I hadn't created a website for the business so thought it was the perfect opportunity for this first project. 
 
-Add a Blurb about the site here, what does it do, why did you build it?
+It has been built in html and css and designed to be responsive across all devices. As a visitor you can view a gallery of previously made cakes which aims to be enticing and encouraging, with a call-to-action to get in touch with the use of a form.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![Blush Bakes by Rach shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/testing-images/blushbakesbyrach-website.jpg)
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+LIVE SITE
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+[You can view the live site here.](https://rachaelbabister.github.io/blush-bakes-by-rach)
+
+GITHUB PAGES
+
+[You can view the GitHub code pages here.](https://github.com/rachaelbabister/blush-bakes-by-rach)
+
 
 ---
 
@@ -18,6 +23,10 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
   - [CONTENTS](#contents)
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories](#user-stories)
+      - [Client Goals](#client-goals)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent Visitor Goals](#frequent-visitor-goals)
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -46,12 +55,37 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+Blush Bakes by Rach is run by a local cake artist who would like to have more of an online presence. Although the business has Facebook and Instagram pages, they are aware that not everybody has social media. By having a website it enables the company to be more accessible online to more potential customers.
 
+#### Client Goals
+
+- For potential customers to see the variety of cakes and treat boxes available to order.
+- To showcase previously made cakes so that customers can see the style of cakes Blush Bakes by Rach creates.
+- To allow visitors to the site to get in touch with Blush Bakes by Rach with an enquiry.
+- An informative contact form so that the visitor can fill in as much information as they can on their first contact.
+- To be able to see and do all of the above on any device, whether a mobile phone or a desktop computer.
+
+#### First Time Visitor Goals
+
+- I want to see what cakes they have made in the past.
+- I want to see what else they do other than cakes.
+- I want to get in touch to see if they have availability for my celebration.
+- I want to find information easily without too many clicks.
+- I want to find out more on their Social Media pages.
+
+#### Returning Visitor Goals
+
+- I want to have another look at the gallery for inspiration.
+- I want to follow up my previous viewing of the site to now get in touch with Blush Bakes by Rach.
+
+#### Frequent Visitor Goals
+
+- I want to see the cake I had made on the gallery page.
+- I want to recommend Blush Bakes by Rach to friends and family.
+
+---
 ## Design
 
 👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
