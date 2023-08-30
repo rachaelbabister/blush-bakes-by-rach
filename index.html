@@ -25,8 +25,7 @@
 <body>
     <!-- Header section with Logo and Navigation -->
     <header>
-        <a href="index.html">
-            <image src="assets/images/header-logo.webp" width="120" height="120" class="header-logo"
+        <a href="index.html" src="assets/images/header-logo.webp" width="120px" height="120px" class="header-logo"
                 alt="Blush Bakes by Rach logo consisting of a pink and gold brushstroke circle with Blush Bakes by Rach in a script typeface in the middle">
         </a>
         <h1 class="hidden-heading">Blush Bakes by Rach - cake artist based in Hurstpierpoint</h1>
@@ -56,25 +55,23 @@
         </section>
 
         <!--Introduction section-->
-        <section id="intro">
+        <div id="intro">
             <div class="intro-text">
                 <p>Hello, I'm Rachael, the baker behind Blush Bakes by Rach. I work from my home kitchen in
                     Hurstpierpoint, putting my passion for creativity into beautifully designed bespoke cakes and other
                     sweet treats.
                 </p>
             </div>
-        </section>
+        </div>
 
         <!-- Cakes for Every Occasion and for Everyone section-->
         <section id="cake-flow">
             <div id="cakesforall">
                 <div id="occasion">
-                    <div id="cake-image-bg">
-                        <div id="winnie-bg"
-                            aria-label="A Winne the Pooh themed cake in yellow and cream decorated with Winnie the Pooh characters">
+                    <div class="cake-image-bg">
+                        <div id="winnie-bg">
                         </div>
-                        <div id="brownies-bg"
-                            aria-label="A box of 6 brownies with a small happy birthday fondant disk on top"></div>
+                        <div id="brownies-bg"></div>
                     </div>
                     <div>
                         <h3>Cakes for Every Occasion</h3>
@@ -84,11 +81,9 @@
                     </div>
                 </div>
                 <div id="everyone">
-                    <div id="cake-image-bg">
-                        <div id="greycake-bg"
-                            aria-label="A tall black, grey and white cake with a Happy 50th topper in gold"></div>
-                        <div id="groovy-bg"
-                            aria-label="A set of biscuits decorated in a groovy 70s theme in different shades of pink and cream">
+                    <div class="cake-image-bg">
+                        <div id="greycake-bg"></div>
+                        <div id="groovy-bg">
                         </div>
                     </div>
                     <div>
@@ -115,15 +110,15 @@
         </section>
 
         <!-- Image Background with Enquire Button -->
-        <section>
+        <div>
             <div id="enquire-bg"
                 aria-label="A cross section view of a Number 90 cake decorated with buttercream, flowers and macarons">
                 <div class="enquire-opacity">
-                    <a href='contact.html'><button class="contact-button"
-                            aria-label="Go to our Contact page to send an enquiry form">Enquire Now</button></a>
+                    <button class="contact-button" onclick="window.location.href='contact.html';"
+                            aria-label="Go to our Contact page to send an enquiry form">Enquire Now</button>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Back to top -->

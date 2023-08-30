@@ -80,7 +80,7 @@ header a {
 }
 
 #menu a:hover {
-    color: #cdac5d;
+    color: #9e7105;
 }
 
 #menu>li {
@@ -130,7 +130,7 @@ main {
     background: url("../images/treatbox-home.webp") no-repeat left center/cover;
     position: relative;
     /* Background colour if image doesn't load */
-    background-color: #cdac5d;
+    background-color: #9e7105;
 }
 
 #hero-text {
@@ -177,6 +177,7 @@ main {
 .intro-text h3 {
     font-size: 200%;
     padding-bottom: 20px;
+    font-weight: lighter;
 }
 
 /* Cakes for Every Occasion and for Everyone section */
@@ -201,7 +202,7 @@ main {
 #everyone h3 {
     text-transform: uppercase;
     font-size: 170%;
-    color: #cdac5d;
+    color: #9e7105;
     letter-spacing: 2px;
 }
 
@@ -241,7 +242,7 @@ main {
     max-height: 195px;
 }
 
-#cake-image-bg {
+.cake-image-bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +262,7 @@ main {
 }
 
 .fa-cookie-bite {
-    color: #cdac5d;
+    color: #9e7105;
 }
 
 /* Background Image with Enquire Button */
@@ -286,9 +287,9 @@ main {
 .contact-button {
     text-transform: uppercase;
     font-family: 'Reenie Beanie', cursive;
-    background-color: #cdac5d;
-    color: #4a474e;
-    border: 1px solid #4a474e;
+    background-color: #4a474e;
+    color: #f7e6de;
+    border: 1px solid #f7e6de;
     font-size: 150%;
     text-align: center;
     width: 100px;
@@ -324,13 +325,13 @@ main {
 }
 
 #cake-menu a:hover {
-    color: #cdac5d;
+    color: #9e7105;
 }
 
 .fa-cookie-bite,
 .fa-cake-candles,
 .fa-ice-cream {
-    color: #cdac5d;
+    color: #9e7105;
 }
 
 /* Images */
@@ -355,7 +356,7 @@ main {
 #gallery h3 {
     font-size: 180%;
     letter-spacing: 2px;
-    color: #cdac5d;
+    color: #9e7105;
     padding: 25px 0 10px 0;
     text-transform: uppercase;
 }
@@ -368,7 +369,7 @@ main {
     background: url("../images/number90cake.webp") no-repeat left bottom/cover;
     display: flex;
     /* Background colour if image doesn't load */
-    background-color: #cdac5d;
+    background-color: #9e7105;
 }
 
 #contact-text {
@@ -448,7 +449,7 @@ textarea {
 .send-button {
     font-family: 'Reenie Beanie', cursive;
     letter-spacing: 2px;
-    background-color: #cdac5d;
+    background-color: #9e7105;
     color: #4a474e;
     border: 1px solid #4a474e;
     font-size: 130%;
@@ -486,7 +487,7 @@ textarea {
 }
 
 #social-media i:hover {
-    color: #cdac5d;
+    color: #9e7105;
 }
 
 
@@ -526,7 +527,7 @@ textarea {
     }
 
     /* Cakes for all section */
-    #cake-image-bg {
+    .cake-image-bg {
         flex-direction: row;
         justify-content: space-evenly;
     }
@@ -593,7 +594,7 @@ textarea {
             flex: 1 1;
         }
 
-        #occasion>#cake-image-bg {
+        #occasion>.cake-image-bg {
             order: 0;
         }
 
@@ -617,7 +618,7 @@ textarea {
             flex: 1 1;
         }
 
-        #everyone>#cake-image-bg {
+        #everyone>.cake-image-bg {
             order: 1;
         }
 
@@ -631,7 +632,7 @@ textarea {
             text-align: left;
         }
 
-        #cake-image-bg {
+        .cake-image-bg {
             justify-content: space-around;
             gap: 10px;
         }
