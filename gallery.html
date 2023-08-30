@@ -26,7 +26,7 @@
     <!-- Header section with Logo and Navigation -->
     <header>
         <a href="index.html">
-            <image src="assets/images/header-logo.webp" width="120px" height="120px" class="header-logo"
+            <img class="header-logo" src="assets/images/header-logo.webp" width="120px" height="120px"
                 alt="Blush Bakes by Rach logo consisting of a pink and gold brushstroke circle with Blush Bakes by Rach in a script typeface in the middle">
         </a>
         <h1 class="hidden-heading">Blush Bakes by Rach - Gallery</h1>
@@ -56,13 +56,13 @@
             </div>
         </section>
         <!-- Cake Menu -->
-        <section>
+        <div>
             <ul id="cake-menu" aria-label="Anchor links to scroll to gallery photos of cakes, cupcakes and treat boxes">
                 <li><a href="#cakes"><i class="fa-solid fa-cake-candles"></i> Cakes</a></li>
                 <li><a href="#cupcakes"><i class="fa-solid fa-ice-cream"></i> Cupcakes</a></li>
                 <li><a href="#treat-boxes"><i class="fa-solid fa-cookie-bite"></i> Treat Boxes</a></li>
             </ul>
-        </section>
+        </div>
         <!-- Gallery -->
         <section id="gallery">
             <!--Cakes-->
@@ -122,15 +122,14 @@
         </section>
 
         <!-- Image Background with Enquire Button -->
-        <section>
-            <div id="enquire-bg"
-                aria-label="A cross section view of a Number 90 cake decorated with buttercream, flowers and macarons">
+        <div>
+            <div id="enquire-bg">
                 <div class="enquire-opacity">
-                    <a href='contact.html'><button class="contact-button"
-                            aria-label="Go to our Contact page to send an enquiry form">Enquire Now</button></a>
+                    <button class="contact-button" onclick="window.location.href='contact.html';"
+                        aria-label="Go to our Contact page to send an enquiry form">Enquire Now</button>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Back to top -->
