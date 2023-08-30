@@ -51,8 +51,8 @@ GITHUB PAGES
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
-    - [ Media](#media)
-    - [ Acknowledgments](#acknowledgments)
+    - [Media](#media)
+    - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -183,8 +183,6 @@ I have tried to ensure the site has been made as accessible as possible by:
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
 HTML and CSS were used to create this website.
@@ -203,8 +201,6 @@ HTML and CSS were used to create this website.
 - [Am I Responsive?](https://ui.dev/amiresponsive?) - to showcase the website on different devices.
 
 Add any frameworks, libraries or programs used while creating your project.
-
----
 
 ### Deployment
 
@@ -242,30 +238,42 @@ To clone a repository on Github, follow these steps:
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+I have learnt from this project to ensure I start my TESTING file from the begining in future. I continually test the site as I go along and have fixed many small issues that didn't work straight away, but unfortunately these weren't catalogued.
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
+In the TESTING file linked below, you can see the tests and fixes I did manage to catalogue.
   
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+[TESTING.md file](TESTING.md)
+
+---
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+- [W3Schools](https://www.w3schools.com/howto/howto_css_transition_hover.asp) - helped to style my buttons to have a smoother transition. I also used them for a Font Awesome tooltip, but have since removed the element that used it.
+- [W3Docs](https://www.w3docs.com/snippets/css/display-the-hidden-element-on-hovering-over-hyperlink-or-a-tag.html) - helped to display an element on hover.
+- [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) - converting hex colours to rgb values.
+- [Stack Overflow](https://stackoverflow.com/questions/51893686/css-columns-fill-row-first) - helped to style my gallery page so that the columns filled the rows across first, rather than down.
+- [Free Code Camp](https://www.freecodecamp.org/news/css-only-back-to-top-button/) - helped to code the 'back to top' button using only html and css.
+- [W3Docs](https://www.w3docs.com/tools/code-editor/3033) - styling to increase the checkbox size in the contact form.
+- [Soft Author](https://softauthor.com/css-flexbox-responsive-registration-form-with-source-code/) - used the code in order to help make the contact form responsive by having the form elements go into two columns on a bigger screen.
+- I also used the [Love Running](https://rachaelbabister.github.io/loverunning/) project I created with [Code Institute](https://codeinstitute.net/) to help with some coding.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+All content used on the site was written by Rachael Babister.
 
-###  Media
+### Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+All photos were taken by Rachael Babister and are originals. Icons used on the site are Font Awesome icons.
   
-###  Acknowledgments
+### Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to thank the following people for their help, whether directly or indirectly!
+
+- My two daughters who have been very patient with me whilst doing this project, and helping to walk the dog and clean the house!
+- My Code Institute Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca).
+- Members of the Code Institute Slack community. Although I didn't ask any direct questions for help, when searching for little queries, I always managed to find the answer!
+- My friend Victoria Walters who has had to listen to me chat about code for far too long! And for looking over my site and checking for errors.
+- My friend Kelly Bates who knows nothing about code but still happily looked through my live site for me checking for any issues - and bringing some to my attention!
+- [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) from Code Institute who signed me up to the course! I hope you like my first project!
