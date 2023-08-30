@@ -4,7 +4,7 @@ Welcome to Blush Bakes by Rach - a website for a real business, run by myself. I
 
 It has been built in html and css and designed to be responsive across all devices. As a visitor you can view a gallery of previously made cakes which aims to be enticing and encouraging, with a call-to-action to get in touch with the use of a form.
 
-![Blush Bakes by Rach shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/testing-images/blushbakesbyrach-website.jpg)
+![Blush Bakes by Rach shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/blushbakesbyrach-website.jpg)
 
 LIVE SITE
 
@@ -88,47 +88,54 @@ Blush Bakes by Rach is run by a local cake artist who would like to have more of
 ---
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+The colour scheme for the website came from the colours that have been used in the logo. The gold was originally a lighter gold, but in order to ensure good visibility against the light background, it was made slightly darker. The idea was to keep the website looking fresh and bright, whilst still easy to read.
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+![Blush Bakes by Rach colour palette](assets/images/readme-images/colour-palette.png)
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+The fonts used on the website were chosen to contrast each other, with one being a cursive font to closely match the font within the logo, and the other a sans-serif to ensure the main body of the website can be read clearly.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+Google Fonts was used to import both fonts:
+- Reenie Beenie is the cursive font used on the headings. This uses both a bolder and a lighter font weight.
+- Raleway is the sans-serif font used on the main body. It is mainly used in the normal weight, apart from links which are bold.
 
-I also like to include an image of the fonts chosen as a reference.
+![Google Fonts used by Blush Bakes by Rach](assets/images/readme-images/googlefonts.png)
 
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Font Awesome is also used for bullet points and the 'back to top' arrow on the website.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+The type of imagery used on the website is all photography, with the odd Font Awesome icon appearing as a bullet point. The photos are all originals taken by myself.
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+I created Wireframes for mobile, tablet and desktop using Balsamiq.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+- [Mobile Phone Wireframe](assets/images/readme-images/mobile-wireframe.png)
+- [Tablet Wireframe](assets/images/readme-images/tablet-wireframe.png)
+- [Desktop Wireframe](assets/images/readme-images/desktop-wireframe.png)
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+There have been a few minor differences from these Wireframes on the website, mainly due to styling, but I tried to stick as close to them as possible.
+
+---
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
+The website contains 4 pages - home page, gallery, contact and a thank you page. Three of these can be accessed via the navigation menu. The thank you page is shown after a visitor has submitted the form on the contact page.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+- All pages show the logo on the left of the page and a responsive navigational bar on the right, in a header at the top of the page. 
+- In a footer at the bottom of the page are the social media links for Facebook & Instagram, along with a link to the contact page. These are shown as icons.
+- A favicon of the logo appears in the browser tab.
+- In the bottom right corner, as you start to scroll down, an arrow appears which enables the user to get back to the top of the page.
+
+![Blush Bakes by Rach shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/blushbakesbyrach-website.jpg)
+
+
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
